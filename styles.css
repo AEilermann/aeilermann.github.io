@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    font-weight: normal;
+  }
+  body{
+    background-color: #34412E;
+    color: #BABCB7;
+    font-family: courier new, monospace;
+  }
+  #title{
+    text-align: center;
+    font-weight: normal;
+  }
+  a{
+    color: #BABCB7;
+  }
+  #navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  #learn-button{
+    background-color: #BABCB7;
+    border: none;
+    padding: 10px;
+    font-family: courier new, monospace;
+  }
+  #top2 ul{
+    display: flex;
+    justify-content: center;
+  }
+  #top2 li{
+    padding: 20px;
+    list-style: none;
+    padding-top: 0;
+  }
+  #top2 a{
+    text-decoration: none;
+  }
+  #home-img{
+    margin-left: 15vw;
+   width: 70vw;
+  }
+  #about-me h1{
+    text-align: center;
+    font-weight: normal;
+    border-top: 3px solid #BABCB7;
+    margin-top: 100px;
+    padding-top: 100px;
+  }
+  #small-about h2, #small-about p{
+    text-align: center;
+  }
+  #small-about h2{
+    font-size: 20px;
+  }
+  #small-about p{
+    font-size: 12px;
+  }
+  #small-about{
+    display: flex;
+    margin-top: 50px;
+  }
+  #born{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #hobbies{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #future{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  #about-img{
+    width: 30vw;
+    height: 70vh;
+    margin-left: 32vw;
+   object-fit: cover;
+   border-radius: 20px;
+    
+  }
+  #about-content{
+  padding: 20px;
+  }
+  #about-content p{
+    padding: 5px;
+  }
+  #first-paragraph::first-letter{
+    font-size: 40px;
+  }
+  .scroll-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      background-color: black;
+      color: #BABCB7;
+      border: 1px solid #BABCB7;
+      border-radius: 10px;
+      width: 150px;
+      height: 40px;
+      font-size: 10px;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  #skills h2{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    border-top: 3px solid #BABCB7;
+  }
+  #skills p{
+    text-align: center;
+  }
+  #skills a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  #skills a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+  #skills-icon, #skills-icon2, #skills-icon3{
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+  }
+  #icon{
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 1px solid #babcb7;
+    border-radius: 20px;
+    margin-right: 10px;
+    height: 50px;
+  }
+  #contact img{
+width: 50vw;
+  }
+  #skills-icon3{
+    border-bottom: 3px solid #BABCB7;
+    padding-bottom: 50px;
+  }
+#contact{
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#contact h2{
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#contact p{
+  padding-bottom: 70px;
+  color: black;
+}
+#contact i{
+color: black;
+padding-bottom: 50px;
+}
+#contact-content{
+  background-color: #BABCB7;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+
+
+
+
+/*Portfolio CSS */
+#work{
+  padding-top: 50px;
+  margin-left: 30px;
+}
+#work h1{
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+#work p{
+  padding-top: 30px;
+}
+#work a{
+  font-weight: bold;
+  text-decoration: underline;
+}
+#freecodecamp{
+  padding-top: 30px;
+}
+#nav3 li{
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+}
+#nav3 a{
+    text-decoration: none;
+}
+#title2 h1{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+/*Resume's CSS*/
+
+  #nav2 li{
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+  }
+  #nav2 a{
+    text-decoration: none;
+  }
+  #resume{
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+  }
+  #title4, #title5{
+padding-top: 50px;
+text-decoration: underline;
+margin-left: 20px;
+  }
+  
+#university-mo, #macc, #fcc{
+    padding-top: 20px;
+    padding-left: 80px;
+}
+#ihop, #car-wash, #eyecare, #pfh, #photography{
+    padding: 20px;
+}
+#education, #experience{
+    margin-left: 10vw;
+}
